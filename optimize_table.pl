@@ -3,6 +3,8 @@
 #
 
 # source: https://github.com/avito-tech/dba-utils/blob/master/tools/optimize_table.pl
+# requirements: sudo apt-get install -y libdbd-pg-perl
+# usage: sudo -u postgres ./optimize_table.pl '/var/run/postgresql' <dbname> <table> <xfield>
 
 use strict;
 use warnings;
